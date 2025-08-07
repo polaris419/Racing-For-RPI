@@ -1,0 +1,6 @@
+{
+    "steering_axis": 0,
+    "throttle_axis": 2,
+    "brake_axis": 3,
+    "deadzone": 0.05
+}

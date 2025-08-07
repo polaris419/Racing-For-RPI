@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+}
+
+.gauge {
+    margin: 20px;
+}

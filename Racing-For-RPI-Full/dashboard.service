@@ -1,0 +1,14 @@
+[Unit]
+Description=Racing Dashboard Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/Racing-For-RPI-Full/dashboard.py
+WorkingDirectory=/home/pi/Racing-For-RPI-Full
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
