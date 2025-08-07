@@ -1,0 +1,10 @@
+[Unit]
+Description=Racing Dashboard
+After=network.target
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/racing_dashboard_project/dashboard.py
+WorkingDirectory=/home/pi/racing_dashboard_project
+Restart=always
+User=pi
+[Install]
+WantedBy=multi-user.target
